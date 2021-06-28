@@ -1,33 +1,113 @@
-body{
-    font-family: "Source Sans Pro";
+body {
+  font-family: "Source Sans Pro";
 }
 
-#search{
-    width: 584px;
-    height: 38px;
-    border: auto;
-    border: solid 1px #ccc;
-    border-radius: 25px;
-    margin-top: 1.8%;
+#search {
+  width: 584px;
+  height: 38px;
+  border: auto;
+  border: solid 1px #ccc;
+  border-radius: 25px;
+  margin-top: 1.8%;
+  font-size: medium;
+  outline:none;
 }
 
-#logo{
-    width: 272px;
-    height: 92px;
-    margin-top: 16%;
-}
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+#search:focus{
+    border-color: black;
 }
 
-.links p{
-display: inline;
+#logo {
+  width: 272px;
+  height: 92px;
+  margin-top: 16%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.links a{
-    text-decoration: none;
-    color: #686b70;
+.links p {
+  display: inline;
+  margin: 0 5px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #686b70;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+#Adv{
+    position:fixed;
+    bottom:15px;
+    left: 30px;
+}
+#Bus{
+    position:fixed;
+    bottom:15px;
+    left: 132px;
+}
+
+#How{
+    position:fixed;
+    bottom:15px;
+    left: 215px;
+}
+
+#Priv{
+    position:fixed;
+    bottom:15px;
+    right: 180px;
+}
+
+#Ter{
+    position:fixed;
+    bottom:15px;
+    right: 110px;
+}
+
+#Set{
+    position:fixed;
+    bottom:15px;
+    right: 30px;
+}
+
+hr{
+    margin-top: 313px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.buttons {
+  border: none;
+  background: none;
+  width: 150px;
+  height: 40px;
+  font-size: small;
+  margin-top: 30px;
+}
+
+.buttons:hover {
+  border: 1px outset black;
+  border-radius: 3%;
+}
+
+#searchBut {
+  margin-left: 38%;
+}
+
+#luckyBut {
+  margin-right: 38%;
+}
+
+hr{
+    margin-bottom: 1px;
 }
