@@ -1,0 +1,33 @@
+body{
+    font-family: "Source Sans Pro";
+}
+
+#search{
+    width: 584px;
+    height: 38px;
+    border: auto;
+    border: solid 1px #ccc;
+    border-radius: 25px;
+    margin-top: 1.8%;
+}
+
+#logo{
+    width: 272px;
+    height: 92px;
+    margin-top: 16%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.links p{
+display: inline;
+}
+
+.links a{
+    text-decoration: none;
+    color: #686b70;
+}
