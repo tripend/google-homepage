@@ -1,27 +1,39 @@
 body {
-  font-family: "Source Sans Pro";
+  font-family: Arial, sans-serif;
 }
 
 #search {
   width: 584px;
-  height: 38px;
+  height: 40px;
   border: auto;
-  border: solid 1px #ccc;
+  border: solid 1px #e5e5e6;
   border-radius: 25px;
   margin-top: 1.8%;
-  font-size: medium;
+  font-size: 14px;
   outline:none;
+  padding-left: 40px;
 }
 
-#search:focus{
-    border-color: black;
+#search:focus, #search:hover{
+     border: 0.5px solid #9fa6a8;
 }
 
+.material-icons-outlined{
+  position: absolute;
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 300;
+  left: 420px;
+  top: 330px;
+  font-size: 18px;
+  color: #9aa0a6;
+}
 #logo {
   width: 272px;
   height: 92px;
-  margin-top: 16%;
+  margin-top: 14%;
 }
+
 .center {
   display: block;
   margin-left: auto;
@@ -40,7 +52,7 @@ body {
 }
 
 hr{
-    margin-top: 322px;
+    margin-top: 376px;
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -51,18 +63,20 @@ hr{
   border: none;
   background: none;
   width: 150px;
-  height: 40px;
-  font-size: small;
+  height: 37px;
+  font-size: 14px;
   margin-top: 30px;
+  background-color: #f2f2f2;
 }
 
 .buttons:hover {
-  border: 1px outset black;
-  border-radius: 3%;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
 }
 
 #searchBut {
   margin-left: 38%;
+  
 }
 
 #luckyBut {
@@ -73,8 +87,8 @@ hr{
 
 ul {
   list-style-type: none;
-  margin-top: -7px;
-  margin-left: -20px;
+  margin-top: -6px;
+  margin-left: -26px;
   font-size: 15px;
   background-color: #f2f2f2;
 }
@@ -90,5 +104,5 @@ li.right{
 }
 
 #Set{
-  margin-right: 15px;
+  margin-right: 10px;
 }
