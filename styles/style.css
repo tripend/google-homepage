@@ -51,14 +51,6 @@ body {
     text-decoration: underline;
 }
 
-hr{
-    margin-top: 376px;
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-
 .buttons {
   border: none;
   background: none;
@@ -83,23 +75,23 @@ hr{
   margin-right: 38%;
 }
 
-
-
 ul {
   list-style-type: none;
-  margin-top: -6px;
   margin-left: -26px;
   font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: block;
+  overflow: auto;
   background-color: #f2f2f2;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 li.left{
-  display: inline;
   float:left;
 }
 
 li.right{
-  display: inline;
   float:right;
 }
 
