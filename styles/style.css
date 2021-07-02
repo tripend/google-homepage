@@ -6,33 +6,31 @@ body {
   width: 584px;
   height: 40px;
   border: auto;
-  border: solid 1px #e5e5e6;
+  border: solid 0.5px #e7e9eb;
   border-radius: 25px;
   margin-top: 1.8%;
-  font-size: 14px;
-  outline:none;
+  font-size: 16px;
+  outline: none;
   padding-left: 40px;
 }
 
-#search:focus, #search:hover{
-     border: 0.5px solid #9fa6a8;
+#search:focus,
+#search:hover {
+  border: 0.5px solid #9fa6a8;
 }
 
-.material-icons-outlined{
-  position: absolute;
-  font-family: 'Material Icons';
+.material-icons-outlined {
+  font-family: "Material Icons";
   font-style: normal;
   font-weight: 300;
-  left: 420px;
-  top: 330px;
   font-size: 18px;
   color: #9aa0a6;
 }
 
-#logo {
+#mainLogo {
   width: 272px;
   height: 92px;
-  margin-top: 14%;
+  margin-top: 13.8%;
 }
 
 .center {
@@ -42,38 +40,36 @@ body {
   width: 50%;
 }
 
-.links a {
+a {
   text-decoration: none;
   color: #5f6369;
   padding: 0 13px 0 13px;
 }
 
-.links a:hover{
-    text-decoration: underline;
+.links a:hover {
+  text-decoration: underline;
+}
+
+.searches {
+  text-align: center;
 }
 
 .buttons {
   border: none;
   background: none;
-  width: 150px;
-  height: 37px;
+  display: inline-block;
+  min-width: 54px;
+  height: 36px;
   font-size: 14px;
   margin-top: 30px;
   background-color: #f2f2f2;
+  margin-inline: 5px;
+  padding: 0 10px;
 }
 
 .buttons:hover {
   border: 1px solid #d1d1d1;
   border-radius: 4px;
-}
-
-#searchBut {
-  margin-left: 40%;
-  
-}
-
-#luckyBut {
-  margin-right: 40%;
 }
 
 .links ul {
@@ -91,15 +87,59 @@ body {
   margin-bottom: 0%;
 }
 
-li.left{
+li.left {
   float: left;
 }
 
-li.right{
+li.right {
   float: right;
 }
 
-#Set{
- padding-right: 90px;
+#Set {
+  padding-right: 55px;
 }
 
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header li a {
+  text-align: center;
+  text-decoration: none;
+  padding: 0 8px 0 8px !important;
+}
+
+.header {
+  margin-top: 1.5%;
+  margin-left: 5px;
+  font-size: 14px;
+  padding-right: 45px;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+#gmailLogo {
+  position: absolute;
+  margin-top: -1.8%;
+  right: 20px;
+  width: auto;
+  max-width: 30px;
+  height: auto;
+  max-height: 30px;
+  float: right;
+}
+
+.apps {
+  font-size: 25px !important;
+  margin-top: -3.5px !important;
+}
+
+.lens {
+  position: relative;
+  top: 10px;
+}
